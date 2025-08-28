@@ -1,0 +1,16 @@
+.inicioConteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: white;
+}
+.titulo{
+    font-size: 2rem;
+    padding: 25px;
+}
+.paragrafo{
+    font-size: 1.25rem;
+    padding: 25px;  
+}

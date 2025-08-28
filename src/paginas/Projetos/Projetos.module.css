@@ -1,0 +1,35 @@
+.projeto h1{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1.5rem;
+    margin-block: 1rem;
+}
+.textoCarregando{
+    color: white;
+    font-size: 2rem;
+    padding: 30vh;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.loader {
+    font-size: 2rem;
+    color: white;
+    animation: spin 2s linear infinite; 
+    display: inline-block; 
+    transform-origin: center; 
+    margin: 0 auto; 
+}

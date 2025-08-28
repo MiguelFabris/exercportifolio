@@ -1,0 +1,17 @@
+.cabecalho{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+
+}
+.navegacao{
+    height: 112px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3rem;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
