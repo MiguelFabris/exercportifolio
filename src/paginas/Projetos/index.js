@@ -31,6 +31,7 @@ function Projetos() {
                                     titulo={repos.name}
                                     descricao={repos.description}
                                     url={repos.html_url}
+                                    linguagem={repos.language}
                                 />
                             ))
                         }

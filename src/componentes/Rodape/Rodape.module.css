@@ -3,6 +3,21 @@
     color: white;
     padding: 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+}
+.rodapeRedes{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    margin-left: auto;
+    color: white;
+}
+.redes{
+    color: white;
+    transition: 1s;
+}
+.redes:hover{
+    color: rgb(145, 146, 147);
+    transform: scale(1.2);
+    transition: 0.5s;
+    cursor: pointer;
 }

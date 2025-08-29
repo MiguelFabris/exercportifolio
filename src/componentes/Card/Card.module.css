@@ -1,7 +1,7 @@
 .card{
     width: 300px;
     height: 300px;
-    background-color: white;
+    background-color: rgb(201, 200, 200);
     color: gray;
     border-radius: 8px;
     box-shadow: 5px 5px 10px #22222270;
@@ -10,6 +10,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    transition: 1s;
+}
+.card:hover{
+    transform: translateY(-20px);
+    transition: 1s;
 }
 .card h3{
     color: rgb(68, 68, 69);
@@ -25,15 +30,20 @@
 }
 .card_icones{
     display: flex;
-    color: rgb(255, 0, 0);
     font-size: 1.5rem;
     gap: 10px;
+    transition: all 1s;
+}
+.card_icones:hover{
+    cursor: pointer;
+    transition: all 1s;
+    transform: scale(1.2);
 }
 .card_button{
     width: 40px;
     height: 40px;
     border: 0;
-    background-color: rgb(249, 0, 0);
+    background-color: rgb(118, 115, 115);
     color: #fff;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -41,8 +51,10 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: all 1s;
 }
 .card_button:hover{
-    background-color: rgb(163, 5, 5);
-    transition: all 0.5s;
+    background-color: rgb(91, 89, 89);
+    transform: scale(1.05);
+    transition: all 1s;
 }

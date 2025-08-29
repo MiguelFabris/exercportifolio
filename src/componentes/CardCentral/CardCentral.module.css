@@ -1,4 +1,30 @@
-.imagem{
+.cardCentral{
     width: 100%;
-    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.iconeHTML, .iconeCSS, .iconeJS, .iconeREACT{
+    width: 200px;
+    height: 250px;
+    margin: 80px;
+    transition: 1s;
+    color: rgba(0, 0, 0, 0.405);
+}
+.iconeHTML:hover, .iconeCSS:hover, .iconeJS:hover, .iconeREACT:hover{
+    cursor: pointer;
+    transform: scale(1.8);
+}
+.iconeHTML:hover{
+    color: orange;
+}
+.iconeCSS:hover{
+    color: rgb(49, 75, 241);
+}
+.iconeJS:hover{
+    color: yellow;
+}
+.iconeREACT:hover{
+    color: cyan;
 }
